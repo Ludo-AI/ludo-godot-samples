@@ -1,7 +1,14 @@
-# Asset licence (to decide)
+# Art and audio licence
 
-The art and audio in samples/ were made with Ludo.ai by Jet Play, Inc. Pick one before the repo goes public:
+The art and audio in `samples/` (sprites, sprite sheets, backgrounds, tiles, icons, sound effects, music and voice
+lines) were made with [Ludo.ai](https://ludo.ai?utm_source=github&utm_medium=repo&utm_campaign=godot-samples&utm_content=assets)
+by Jet Play, Inc. and are licensed under the
+[Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-- CC BY 4.0: anyone may use them, even commercially, with credit "Made with Ludo.ai". The credit is a backlink.
-- CC0: no conditions. Most reuse, no credit.
-- Learning only: use the project to learn, not the assets in your own game. Least reuse; itch.io and GitHub readers expect more.
+You may use them in your own games, free or commercial, change them and share them, as long as you give credit.
+A line like this in your credits or store page is enough:
+
+> Art and audio: "<sample name>" by Ludo.ai (https://ludo.ai), CC BY 4.0
+
+The code (`.gd`, `.gdshader`, `.tscn`, `.tres`, `project.godot` and the tools) is under the MIT licence in `LICENSE`.
+Fonts keep their own licence (SIL Open Font License), next to each font file.

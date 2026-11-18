@@ -13,7 +13,7 @@ asset generator. The code is ours, written for the videos.
 ## Use them
 
 - **Code:** MIT (see `LICENSE`). Copy it, change it, ship it.
-- **Art and audio:** ASSET LICENCE TO BE DECIDED (see `ASSETS.md`).
+- **Art and audio:** CC BY 4.0 (see `ASSETS.md`). Use them in your own games, free or commercial, with credit to Ludo.ai.
 - Each project's own `README.md` says what to look at first, which script does what, and how the assets were made
   (the prompts and settings), so you can make your own in the same style.
 
@@ -29,4 +29,4 @@ offline [Ludo toolbox](https://ludo.ai/developers/toolbox?utm_source=github&utm_
 `python3 tools/package.py <ludo-videos project dir> <slug> --dry-run`, then without `--dry-run` once the video's final
 cut is accepted: copies the project into `samples/<slug>` without the editor cache, capture scripts and raw takes,
 refuses fonts we may not redistribute and files over 50 MB, and zips `dist/<slug>.zip` for itch.io. Then write the
-project README from `itch/TEMPLATE.md` and add its row above.
+project's own README and add its row above.

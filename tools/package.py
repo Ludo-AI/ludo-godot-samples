@@ -72,7 +72,7 @@ def main():
         for f in sorted(dst.rglob("*")):
             if f.is_file():
                 z.write(f, Path(a.slug) / f.relative_to(dst))
-    print(f"wrote samples/{a.slug} and dist/{a.slug}.zip; write samples/{a.slug}/README.md from itch/TEMPLATE.md")
+    print(f"wrote samples/{a.slug} and dist/{a.slug}.zip; write samples/{a.slug}/README.md")
 
 
 if __name__ == "__main__":
