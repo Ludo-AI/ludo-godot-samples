@@ -1,0 +1,15 @@
+; Mossgrove, the #42 test level (ours, written by Claude Code). Art and sounds load at runtime from res://art and res://sfx.
+config_version=5
+
+[application]
+config/name="Mossgrove"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="disabled"
+
+[rendering]
+textures/canvas_textures/default_texture_filter=1
+environment/defaults/default_clear_color=Color(0.1, 0.1, 0.12, 1)
