@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SKIP_DIRS = {".godot", "cap", "checks", "renders", "__pycache__"}
 SKIP_FILE = re.compile(r"(^cap.*\.sh$|_raw\.|\.bak$|\.orig$|\.txt$|^\.DS_Store$)")
-FONTS_OK = set()  # file names of fonts under the SIL OFL or another licence that allows redistribution, checked by hand
+FONTS_OK = {"Gelasio-Bold.ttf"}  # file names of fonts under the SIL OFL or another licence that allows redistribution, checked by hand
 MAX_BYTES = 50 * 1024 * 1024
 ASSET_EXT = {".png", ".jpg", ".webp", ".wav", ".ogg", ".mp3", ".glb", ".ttf", ".otf"}
 
