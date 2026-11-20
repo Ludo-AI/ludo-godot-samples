@@ -8,7 +8,7 @@ asset generator. The code is ours, written for the videos.
 
 | Project | What it shows | Video | itch.io |
 |---|---|---|---|
-| [enemy-sprites](samples/enemy-sprites) | Five AI enemy sprites in one Godot level: wind-ups that warn, one attack each, a boss | [AI enemy sprites](https://youtu.be/C4eFFyOqRwA) | _(soon)_ |
+| [enemy-sprites](samples/enemy-sprites) | Five AI enemy sprites in one Godot level: wind-ups that warn, one attack each, a boss | [AI enemy sprites](https://youtu.be/C4eFFyOqRwA) | [Mossgrove](https://ludoaigames.itch.io/mossgrove-godot-enemy-sprites) |
 
 ## Use them
 
