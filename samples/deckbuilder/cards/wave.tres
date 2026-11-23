@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="CardData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://card_data.gd" id="1"]
+[ext_resource type="Texture2D" path="res://art/cards/wave.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+title = "Rogue Wave"
+kind = 0
+cost = 2
+damage = 8
+block = 0
+draw = 0
+weak = 0
+all_enemies = true
+text = "Deal 8 damage to all enemies."
+art = ExtResource("2")
