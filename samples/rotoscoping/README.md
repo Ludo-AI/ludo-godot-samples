@@ -75,7 +75,7 @@ adds that back. In our test:
 - `air_curve`: his body's position across the gap, from 0 at take-off to 1 at landing, 21 samples. It is close to a
   straight line, as a jump should be (gravity only acts up and down).
 
-The knight is 328 px tall in the sheet, so he travels 1.21 x 328 = 397 px, shaped by `air_curve`, while his air frames
+The knight is 328 px tall in the sheet, so he travels the measured 1.206 x 328 = 396 px, shaped by `air_curve`, while his air frames
 play. Positions snap to the art's 4 px pixel, so the knight never sits between the background's pixels.
 
 ## Feet that stay put
