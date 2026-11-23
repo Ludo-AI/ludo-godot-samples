@@ -1,0 +1,6 @@
+{
+ "about": "Reference timing for knight_jump.png. Each key pins a sheet frame (0-based) to a time in the reference clip (seconds): [clip seconds, sheet frame]. Frames between two keys share the time between them evenly. Keys picked by eye on the poses: start, arm swing, crouch, take-off, landing, stand, end.",
+ "clip": "A_fwdjump_side.mp4",
+ "keys": [[0.0, 0], [0.6, 6], [1.35, 11], [1.67, 15], [2.03, 34], [3.6, 47], [3.9, 48]],
+ "last_frame_seconds": 0.0333
+}

@@ -1,0 +1,6 @@
+{
+ "knight_jump": {"file": "res://art/knight_jump.png", "cols": 7, "rows": 7, "n": 49, "fps": 18.375, "pivot": [140, 408], "scale": 1, "knight_height": 328, "takeoff_frame": 15, "landing_frame": 34},
+ "knight_idle": {"file": "res://art/knight_idle.png", "cols": 4, "rows": 4, "n": 16, "fps": 10.97, "pivot": [176, 664], "scale": 0.5},
+ "level": {"file": "res://art/level_harbour.png", "pier_top": 784, "piers": [[0, 328], [488, 768]], "water_y": 900, "start_x": 200, "grid": 4},
+ "reference_clip": {"file": "res://ref/reference_jump.png", "cols": 11, "rows": 11, "n": 117, "fps": 30}
+}

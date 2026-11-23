@@ -10,6 +10,7 @@ asset generator. The code is ours, written for the videos.
 |---|---|---|---|
 | [enemy-sprites](samples/enemy-sprites) | Five AI enemy sprites in one Godot level: wind-ups that warn, one attack each, a boss | [AI enemy sprites](https://youtu.be/C4eFFyOqRwA) | [Mossgrove](https://ludoaigames.itch.io/mossgrove-godot-enemy-sprites) |
 | [game-polish](samples/game-polish) | Lamplight: one Godot level in seven passes, from flat sprites to parallax, normal-map lighting and juice | [Make your game look good](https://youtu.be/fLdvpvgbKn4) | [Lamplight](https://ludoaigames.itch.io/lamplight-godot-game-polish) |
+| [rotoscoping](samples/rotoscoping) | Harbour Jump: a knight's jump made from a real person's clip, with the reference timing, root motion and feet that stay planted | Rotoscoping: is it cheating? (link soon) | (soon) |
 
 ## Use them
 
