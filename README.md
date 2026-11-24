@@ -12,6 +12,7 @@ asset generator. The code is ours, written for the videos.
 | [game-polish](samples/game-polish) | Lamplight: one Godot level in seven passes, from flat sprites to parallax, normal-map lighting and juice | [Make your game look good](https://youtu.be/fLdvpvgbKn4) | [Lamplight](https://ludoaigames.itch.io/lamplight-godot-game-polish) |
 | [rotoscoping](samples/rotoscoping) | Harbour Jump: a knight's jump made from a real person's clip, with the reference timing, root motion and feet that stay planted | Rotoscoping: is it cheating? (link soon) | [Harbour Jump](https://ludoaigames.itch.io/harbour-jump-godot-rotoscoping) |
 | [deckbuilder](samples/deckbuilder) | Storm Keeper: a roguelike deckbuilder battle with a card hand fan, enemy intents, rewards and hits that land; every card from one painting's style | [How to make a game like Slay the Spire in Godot](https://youtu.be/AnD9mlPijDk) | (soon) |
+| [ai-vfx-for-games](samples/ai-vfx-for-games) | Cinder's Fight: a fox mage's battle with AI-made explosions, fireballs, lightning and an aura, set up with Add blend, one-shot effects that free themselves and effect lights | [AI VFX for games](https://youtu.be/eAcue8riqqo) | (soon) |
 
 ## Use them
 

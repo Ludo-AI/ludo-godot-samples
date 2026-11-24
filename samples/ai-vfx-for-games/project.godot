@@ -1,0 +1,17 @@
+; Cinder's fight, the Godot sample for Ludo video #40 "AI VFX for games". Every picture and sound is a Ludo.ai generation.
+config_version=5
+
+[application]
+config/name="Cinder's Fight (AI VFX for games)"
+run/main_scene="res://main.tscn"
+
+[display]
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="viewport"
+
+[editor]
+movie_writer/mjpeg_quality=0.95
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
