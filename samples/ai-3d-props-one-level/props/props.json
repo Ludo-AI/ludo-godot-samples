@@ -1,0 +1,152 @@
+{
+ "barrel": {
+  "file": "res://props/barrel.glb",
+  "size": 1.0,
+  "axis": "h",
+  "tris": 5385
+ },
+ "crate": {
+  "file": "res://props/crate.glb",
+  "size": 0.85,
+  "axis": "h",
+  "tris": 5032
+ },
+ "chest": {
+  "file": "res://props/chest.glb",
+  "size": 0.75,
+  "axis": "h",
+  "tris": 4983
+ },
+ "anchor": {
+  "file": "res://props/anchor.glb",
+  "size": 1.5,
+  "axis": "h",
+  "tris": 4784
+ },
+ "lantern": {
+  "file": "res://props/lantern.glb",
+  "size": 2.6,
+  "axis": "h",
+  "tris": 5336
+ },
+ "cannon": {
+  "file": "res://props/cannon.glb",
+  "size": 1.9,
+  "axis": "l",
+  "tris": 4916
+ },
+ "rowboat": {
+  "file": "res://props/rowboat.glb",
+  "size": 3.4,
+  "axis": "l",
+  "tris": 4801
+ },
+ "palm": {
+  "file": "res://props/palm.glb",
+  "size": 4.6,
+  "axis": "h",
+  "tris": 5271
+ },
+ "fish_basket": {
+  "file": "res://props/fish_basket.glb",
+  "size": 0.6,
+  "axis": "h",
+  "tris": 4994
+ },
+ "flour_sack": {
+  "file": "res://props/flour_sack.glb",
+  "size": 0.8,
+  "axis": "h",
+  "tris": 5146
+ },
+ "powder_keg": {
+  "file": "res://props/powder_keg.glb",
+  "size": 0.7,
+  "axis": "h",
+  "tris": 4862
+ },
+ "rope_coil": {
+  "file": "res://props/rope_coil.glb",
+  "size": 0.9,
+  "axis": "l",
+  "tris": 5199
+ },
+ "mooring_post": {
+  "file": "res://props/mooring_post.glb",
+  "size": 1.1,
+  "axis": "h",
+  "tris": 5533
+ },
+ "ships_wheel": {
+  "file": "res://props/ships_wheel.glb",
+  "size": 1.4,
+  "axis": "h",
+  "tris": 4926
+ },
+ "campfire": {
+  "file": "res://props/campfire.glb",
+  "size": 1.6,
+  "axis": "h",
+  "tris": 5585
+ },
+ "torch": {
+  "file": "res://props/torch.glb",
+  "size": 1.8,
+  "axis": "h",
+  "tris": 5017
+ },
+ "cannonball_pile": {
+  "file": "res://props/cannonball_pile.glb",
+  "size": 0.8,
+  "axis": "h",
+  "tris": 4870
+ },
+ "cutlass_rack": {
+  "file": "res://props/cutlass_rack.glb",
+  "size": 1.3,
+  "axis": "h",
+  "tris": 4948
+ },
+ "beach_rock": {
+  "file": "res://props/beach_rock.glb",
+  "size": 1.2,
+  "axis": "l",
+  "tris": 4887
+ },
+ "driftwood_log": {
+  "file": "res://props/driftwood_log.glb",
+  "size": 2.4,
+  "axis": "l",
+  "tris": 5368
+ },
+ "shell_cluster": {
+  "file": "res://props/shell_cluster.glb",
+  "size": 0.6,
+  "axis": "l",
+  "tris": 4918
+ },
+ "signpost": {
+  "file": "res://props/signpost.glb",
+  "size": 2.0,
+  "axis": "h",
+  "tris": 5103
+ },
+ "fishing_net": {
+  "file": "res://props/fishing_net.glb",
+  "size": 2.0,
+  "axis": "h",
+  "tris": 6024
+ },
+ "parrot_perch": {
+  "file": "res://props/parrot_perch.glb",
+  "size": 1.5,
+  "axis": "h",
+  "tris": 4941
+ },
+ "bucket_mop": {
+  "file": "res://props/bucket_mop.glb",
+  "size": 1.2,
+  "axis": "h",
+  "tris": 4627
+ }
+}
