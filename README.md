@@ -13,7 +13,7 @@ asset generator. The code is ours, written for the videos.
 | [rotoscoping](samples/rotoscoping) | Harbour Jump: a knight's jump made from a real person's clip, with the reference timing, root motion and feet that stay planted | [Is rotoscoping cheating?](https://youtube.com/shorts/X2dV6rmTAnQ) | [Harbour Jump](https://ludoaigames.itch.io/harbour-jump-godot-rotoscoping) |
 | [deckbuilder](samples/deckbuilder) | Storm Keeper: a roguelike deckbuilder battle with a card hand fan, enemy intents, rewards and hits that land; every card from one painting's style | [How to make a game like Slay the Spire in Godot](https://youtu.be/AnD9mlPijDk) | [Storm Keeper](https://ludoaigames.itch.io/storm-keeper-godot-deckbuilder) |
 | [ai-vfx-for-games](samples/ai-vfx-for-games) | Cinder's Fight: a fox mage's battle with AI-made explosions, fireballs, lightning and an aura, set up with Add blend, one-shot effects that free themselves and effect lights | [AI VFX for games](https://youtu.be/eAcue8riqqo) | [Cinder's Fight](https://ludoaigames.itch.io/cinders-fight-godot-vfx) |
-| [ai-3d-props-one-level](samples/ai-3d-props-one-level) | Smuggler's Cove: one Godot level dressed with 25 AI 3D props (barrels, crates, a cannon, a rowboat), reskinned with AI textures, with collision built in code and lights | [AI 3D props for one level](https://youtu.be/MRzamkv3hIQ) | (soon) |
+| [ai-3d-props-one-level](samples/ai-3d-props-one-level) | Smuggler's Cove: one Godot level dressed with 25 AI 3D props (barrels, crates, a cannon, a rowboat), reskinned with AI textures, with collision built in code and lights | [AI 3D props for one level](https://youtu.be/MRzamkv3hIQ) | [Smuggler's Cove](https://ludoaigames.itch.io/smugglers-cove-godot-3d-props) |
 
 ## Use them
 
