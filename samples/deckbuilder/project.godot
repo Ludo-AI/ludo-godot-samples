@@ -4,6 +4,10 @@ config_version=5
 config/name="Storm Keeper"
 run/main_scene="res://main.tscn"
 
+[autoload]
+
+Packs="*res://packs.gd"
+
 [display]
 window/size/viewport_width=1920
 window/size/viewport_height=1080

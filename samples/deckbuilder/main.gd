@@ -19,7 +19,7 @@ const END_P := Vector2(1712, 776)   # r3: up, clear of a six-card hand at the wi
 const ORB_P := Vector2(160, 850)
 const BG_FPS := 24.0
 const BG_TINT := Color(1, 1, 1)   # Gate 2b (founder r3 note 0:04.6 "just use whatever comes out of ludo directly"): the clip untouched. r2 was 0.63: worst-frame contrast of the numbers at or above r1 (tools/contrast_r2.py); the dial for the moving background: darker if the cards, intents or numbers stop reading
-var ANIMS: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://art/anim/anims.json"))
+var ANIMS: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(Packs.file("res://art/anim/anims.json")))
 const ANIM_NAMES := ["idle", "attack", "hurt", "death"]
 # r3 (founder notes 0:04.6 and 2:31.3 "they aren't really popping off the bg"): how the fighters stand off the moving sea.
 # Compared on checks/r3/pop_sheet.jpg with tools/pop_contrast.py; LOOK is the pick. Widths in game px.
@@ -194,14 +194,14 @@ func _ready() -> void:
 	rng.seed = 47
 	for k in ["swish", "thunk", "block", "draw", "hit", "chime", "sink"]:
 		var p := AudioStreamPlayer.new()
-		p.stream = AudioStreamWAV.load_from_file(ProjectSettings.globalize_path("res://sfx/%s.wav" % k))
+		p.stream = AudioStreamWAV.load_from_file(ProjectSettings.globalize_path(Packs.file("res://sfx/%s.wav" % k)))
 		p.max_polyphony = 4
 		add_child(p)
 		sfx[k] = p
 	world = Node2D.new(); add_child(world)
 	# the background: a looping Video Generator clip of the shore picture, one JPEG per frame (art/bg, not imported: .gdignore),
 	# decoded into one texture as the clock passes, so it loops without a seam and never holds every frame in memory
-	bg_dir = ProjectSettings.globalize_path("res://art/bg")
+	bg_dir = ProjectSettings.globalize_path(Packs.file("res://art/bg"))
 	bg_n = Array(DirAccess.get_files_at(bg_dir)).filter(func(f): return f.ends_with(".jpg")).size()
 	bg_tex = ImageTexture.create_from_image(Image.load_from_file(bg_dir.path_join("f000.jpg")))
 	bg = Sprite2D.new(); bg.texture = bg_tex; bg.centered = false; bg.modulate = BG_TINT
