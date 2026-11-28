@@ -95,7 +95,7 @@ How it works:
   (`art/...`, `sfx/...`, `art/anim/anims.json`, the `art/bg/` frames), plus `music.mp3`. A new pack is a new folder, not new code.
 - `packs.gd` (an autoload, `Packs`) swaps every picture and resource of the pack in before the battle loads
   (`Resource.take_over_path`, so each `load("res://art/...")` and every card `.tres` gets the pack's picture) and plays the pack's
-  music on a loop. The game has no music of its own; with no pack it runs exactly as it shipped.
+  music on a loop. With no pack it runs exactly as it shipped.
 - `main.gd` changed by three lines: the three things the battle reads straight from disk (`anims.json`, the sounds and the
   background frames) ask `Packs.file()` for their path. `project.godot` gained the autoload.
 - Each fighter's sheets were packed with the free `ludo toolbox sprite pack` to one frame size and one ground line, and drawn at the
